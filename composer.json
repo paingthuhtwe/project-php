@@ -1,0 +1,18 @@
+{
+    "name": "panda/project",
+    "authors": [
+        {
+            "name": "Paing Thu Htwe",
+            "email": "paingthuhtwe.official@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.21"
+    },
+    "autolaod": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    }
+}
